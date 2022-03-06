@@ -5,7 +5,7 @@
 {
     'name': 'External Sync (customizations for Media File Management Solution)',
     'summary': 'External Sync Module customizations for Media File Management Solution.',
-    'version': '14.0.5.0',
+    'version': '15.0.6.0',
     'author': 'Carlos Eduardo Vercelino - CLVsol',
     'category': 'CLVsol Solutions',
     'license': 'AGPL-3',
