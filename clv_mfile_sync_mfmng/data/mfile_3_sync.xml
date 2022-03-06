@@ -115,7 +115,7 @@
 	</record>
 	 
 	<record id="clv_mfile_clv_mfile_3_template_object_field_image_1920" model="clv.external_sync.object_field">
-		<field name="external_object_field" eval="&quot;&quot;&quot;image&quot;&quot;&quot;"/>
+		<field name="external_object_field" eval="&quot;&quot;&quot;image_1920&quot;&quot;&quot;"/>
 		<field name="local_object_field" eval="&quot;&quot;&quot;image_1920&quot;&quot;&quot;"/>
 		<field name="synchronization" eval="True"/>
 		<field name="template_id" eval="clv_mfile_clv_mfile_3_template"/>
