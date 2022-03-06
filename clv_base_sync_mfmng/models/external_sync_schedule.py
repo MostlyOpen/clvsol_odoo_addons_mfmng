@@ -32,7 +32,7 @@ class ExternalSync(models.Model):
             method_args = literal_eval(schedule.method_args)
 
             remote_object_fields = ['id', 'name', 'partner_id', 'company_id', 'tz', 'lang',
-                                    'login', 'password', 'image', 'groups_id', 'active']
+                                    'login', 'password', 'image_1920', 'groups_id', 'active']
 
             AbstractExternalSync = self.env['clv.abstract.external_sync']
             ResUsers = self.env['res.users']
@@ -85,8 +85,8 @@ class ExternalSync(models.Model):
                         res_user_record['name'] = remote_object['name']
                         res_user_record['login'] = remote_object['login']
                         res_user_record['password'] = remote_object['password']
-                        if remote_object['image'] is not False:
-                            res_user_record['image_1920'] = remote_object['image']
+                        if remote_object['image_1920'] is not False:
+                            res_user_record['image_1920'] = remote_object['image_1920']
                         res_user_record['lang'] = remote_object['lang']
                         res_user_record['tz'] = remote_object['tz']
                         res_user_record['active'] = remote_object['active']
